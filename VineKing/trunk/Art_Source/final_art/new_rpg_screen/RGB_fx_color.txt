@@ -1,0 +1,7 @@
+Blue   = R45 G71 B210
+
+Green  = R11 G223 B10
+
+Purple = R197 G71 B210
+
+

@@ -1,0 +1,4 @@
+These icons MUST be named as they are, and they MUST go in:
+
+MyProjects\VineKing\buildFiles\XCode_iPhone
+
