@@ -1,0 +1,10 @@
+--- Torque2D for iPhone project template Description 
+---
+---
+--- Template Name 			: sampleProject
+--- Template Description 		: A simple project to demonstrate iPhone features and usage (best practices)
+--- Template Author			: Luma Arcade
+--- Template Version 			: 1.0
+---
+---
+

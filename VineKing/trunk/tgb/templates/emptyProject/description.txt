@@ -1,0 +1,10 @@
+--- Torque2D for iPhone project template Description 
+---
+---
+--- Template Name 			: emptyProject
+--- Template Description 		: A minimal project template, excludes gui data
+--- Template Author			: Luma Arcade
+--- Template Version 			: 1.0
+---
+---
+

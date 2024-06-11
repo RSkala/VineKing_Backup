@@ -1,0 +1,32 @@
+<TorsionProject>
+<Name>CompileScripts</Name>
+<WorkingDir/>
+<EntryScript>CompileScriptsMain.cs</EntryScript>
+<DebugHook>dbgSetParameters( #port#, "#password#", true );</DebugHook>
+<Mods/>
+<ScannerExts>cs; gui</ScannerExts>
+<Configs>
+<Config>
+<Name>TGBCompile_Normal</Name>
+<Executable>TGBCompile_Normal.exe</Executable>
+<Arguments>CompileScriptsMain.cs C:\dev\GarageGames\TGB\iPhone_dev\games\BehaviorShooter</Arguments>
+<HasExports>true</HasExports>
+<Precompile>true</Precompile>
+<InjectDebugger>true</InjectDebugger>
+<UseSetModPaths>false</UseSetModPaths>
+</Config>
+<Config>
+<Name>iPhone_dev tgb DEBUG</Name>
+<Executable>..\tgb\TorqueGameBuilder_DEBUG.exe</Executable>
+<Arguments>CompileScriptsMain.cs C:\dev\GarageGames\TGB\iPhone_dev\games\BehaviorShooter</Arguments>
+<HasExports>true</HasExports>
+<Precompile>true</Precompile>
+<InjectDebugger>true</InjectDebugger>
+<UseSetModPaths>false</UseSetModPaths>
+</Config>
+</Configs>
+<SearchURL/>
+<SearchProduct>TGB</SearchProduct>
+<SearchVersion>HEAD</SearchVersion>
+<ExecModifiedScripts>true</ExecModifiedScripts>
+</TorsionProject>

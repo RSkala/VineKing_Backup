@@ -1,0 +1,867 @@
+//-------------------------- 9/22/2012 -- 23:19:14 -----
+System & Processor Information:
+   MacOS version: 10.8.2
+   CarbonLib version: 1.6.0
+   Physical RAM: 2047MB
+   Logical RAM: 2047MB
+Unknown Getstalt value for processor type: 0x1f65e835
+platform layer should be changed to use sysctl() instead of Gestalt() .
+   Unknown Processor, assuming x86 Compatible, 2147 Mhz
+   FPU detected
+ 
+Math Init:
+   Installing Standard C extensions
+ 
+Input Init:
+
+Video Init:
+  active displays = 0x318a0c0  CGDisplayID = 0x42803c0
+using display 0x318a0c0
+   Accelerated OpenGL display device detected.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/main.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/main.cs. Took 0 ms
+common/preferences/defaultPrefs.cs (86): Unable to find function initDisplayDeviceInfo
+
+Using OpenGL rendering. Fullscreen: 0
+
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/preferences/defaultPrefs.cs. Took 0 ms
+Executed /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/commonPrefs.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/common.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/audio.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/canvas.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/cursor.cs. Took 0 ms
+Binding server port to default IP
+UDP initialized on port 0
+Activating the OpenGL display device...
+ OpenGLDevice activating...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce GT 650M OpenGL Engine
+  Version: 2.1 NVIDIA-8.0.61
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+  Vertical Sync
+  ATI_FSAA
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  3DFX_texture_compression_FXT1
+
+ set screen mode 1280 x 800 x 32, windowed, force it, dont repaint
+Cleaning up the display device...
+Killing the texture manager...
+Clearing the current AGL context...
+Clearing the current drawable...
+Deleting the rendering context...
+>> Attempting to change display settings to windowed 1280x800x32...
+using display 0x318a0c0
+Set up AGL windowed support
+Cleared gl buffers
+>>Number of FSAA samples is now [1].
+Resurrecting the texture manager...
+Max Texture Size reported as: 16384
+OpenAL Driver Init:
+   Vendor: Apple Computer Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE AL_EXT_float32 AL_EXT_STATIC_BUFFER AL_EXT_SOURCE_NOTIFICATIONS
+
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/profiles.cs. Took 8 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/cursors.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/options.gui. Took 20 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/remap.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/console.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gui/help.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/screenshot.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/Gui/FrameOverlayGui.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/metrics.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/scriptDoc.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/keybindings.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/options.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/levelManagement.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/align.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/helperfuncs.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/common/gameScripts/behaviorManagement.cs. Took 0 ms
+ % - Initialized Common
+ % - Initializing Tools
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/cursors.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/profiles.ed.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/main.cs. Took 0 ms
+ % - Initializing Tools Base
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/gui/editorProfiles.ed.cs. Took 16 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/fileLoader.ed.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/gui/panels/navPanelProfiles.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/editorClasses/gui/panels/navPanelProfiles.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/gui/panels/navPanelProfiles.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/preferencesManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormLibraryManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormContentManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormReferenceManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormLayoutManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormMessageManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/resourceFinder.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/resourceLoader.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/debugOutput.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiCanvasExtensions.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/editorMenus.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/expandos.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/utility.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/contextPopup.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/projects/projectEvents.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/projects/projectInternalInterface.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/input/inputEvents.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/input/dragDropEvents.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/input/applicationEvents.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiFormClass.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiClasses/guiThumbnailPopup.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/guiClasses/guiThumbnail.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/gui/tgbStartPage.ed.gui. Took 74 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/gui/tgbStartPage.ed.cs. Took 2 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/core/zip/zipFile.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/editorClasses/scripts/core/zip/zipFile.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/core/zip/zipFile.ed.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/platform/menuBuilder.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/editorClasses/scripts/platform/menuBuilder.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/editorClasses/scripts/platform/menuBuilder.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/main.cs. Took 0 ms
+ % - Initializing Debugger
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Scripts/debugger.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/breakConditionDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/connectDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/editWatchDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/findDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/debugger.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/debugger/Gui/watchDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/main.cs. Took 0 ms
+ % - Initializing Gui Builder
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditor.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditor.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/newGuiDialog.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/fileDialogs.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditorPrefsDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditorPrefsDlg.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditorPalette.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/gui/guiEditorUndo.ed.cs. Took 2 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/core/guiApplicationClose.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/guiEditor/core/guiApplicationClose.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/guiEditor/core/guiApplicationClose.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/main.cs. Took 0 ms
+ % - Initializing Particle Effect Builder
+Executed /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/particleEditorPrefs.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/scripts/newParticleEditor.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/scripts/ParticleEditorEffectFunctions.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/scripts/ParticleEditorEmitterFunctions.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/scripts/undo.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/particleEditor/scripts/fileDialogs.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/main.cs. Took 2 ms
+ % - Initializing Scene Editor
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/preferences/defaultPrefs.ed.cs. Took 0 ms
+Executed /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelEditorPrefs.cs. Took 0 ms
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/data/layouts/Default.cs. Took 18 ms
+Compiling /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts/User.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1//User.cs.dso
+Executed /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts/User.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/profiles.ed.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dTorsion.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/t2dTorsion.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProjectPersistence.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/t2dProjectPersistence.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProjectConverter11x.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/t2dProjectConverter11x.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProject.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/t2dProject.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dCoreDeploy.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/t2dCoreDeploy.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/gameConfigXML.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/gameConfigXML.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/dragDrop.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/dragDrop.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/applicationClose.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/core/applicationClose.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dTorsion.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/persistence/xml.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProjectPersistence.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProjectConverter11x.ed.cs. Took 0 ms
+     % Project Game Path
+         % Projects (last, startup) : /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/TestGame01/projectFiles/project.t2dProj  ,  
+     % (2)Reloading last project. /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/TestGame01/projectFiles/project.t2dProj
+     % Path added : /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/TestGame01/projectFiles
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dProject.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/t2dCoreDeploy.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/gameConfigXML.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/dragDrop.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/core/applicationClose.ed.cs. Took 2 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/xcodebuildflags.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/xcodebuildflags.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/undo.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/undo.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/toolbar.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/toolbar.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/saving.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/saving.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/properties.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/properties.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/options.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/options.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelManagement.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/levelManagement.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditorWindow.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/levelEditorWindow.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditorMenu.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/levelEditorMenu.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditor.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/levelEditor.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/guiClasses/lbStaticSpriteThumbnailPopup.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/guiClasses/lbStaticSpriteThumbnailPopup.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/toolPropertiesSelection.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/toolPropertiesSelection.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/toolProperties.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/toolProperties.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBarContent.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBarContent.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarTreeView.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarTreeView.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarQuickEdit.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarQuickEdit.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarProject.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarProject.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarHistoryView.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarHistoryView.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarCreate.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarCreate.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarContentManagement.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarContentManagement.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarClassConfigLink.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sideBar/sideBarClassConfigLink.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sceneView.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/sceneView.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/toolbar.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/toolbar.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/layerPersistence.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/layerPersistence.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushRollout.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushRollout.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushPreview.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushPreview.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTrigger.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dTrigger.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTileLayer.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dTileLayer.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTextObject.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dTextObject.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dStaticSprite.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dStaticSprite.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dShapeVector.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dShapeVector.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dShape3D.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dShape3D.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dScroller.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dScroller.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectSet.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectSet.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectGroup.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectGroup.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObject.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObject.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneGraph.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneGraph.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dPath.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dPath.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dParticleEffect.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dParticleEffect.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dAnimatedSprite.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/t2dAnimatedSprite.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit3.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit3.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit2.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit2.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textCommandButton.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textCommandButton.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dFramePicker.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dFramePicker.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dDatablockList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dDatablockList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/spacer.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/spacer.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/rollout.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/rollout.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFloatWindow.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFloatWindow.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFieldBaseType.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFieldBaseType.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditContentUtil.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditContentUtil.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/mask.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/mask.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/listBox.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/listBox.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRightEdit.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRightEdit.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRight.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRight.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/layerManager.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/layerManager.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/label.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/label.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/keybindList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/keybindList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/hideableStack.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/hideableStack.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/enumList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/enumList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dynamicFieldStack.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dynamicFieldStack.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownEditList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownEditList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/commandButton.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/commandButton.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/colorPicker.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/colorPicker.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/checkBox.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/checkBox.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/showGraphButton.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/showGraphButton.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleGraphFieldList.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleGraphFieldList.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterStack.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterStack.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterGraph.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterGraph.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEffectGraph.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEffectGraph.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/otherFields/align.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/quickEditClasses/otherFields/align.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/tileMaps.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/tileMaps.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/staticSprites.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/staticSprites.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/scrollers.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/scrollers.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/particleEffects.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/particleEffects.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/otherObjects.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/otherObjects.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/objectLibraryBaseType.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/objectLibraryBaseType.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/AnimatedSprites.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/forms/objectLibrary/AnimatedSprites.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/fileDialogs.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/fileDialogs.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/edit.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/edit.ed.cs.edso
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/datablocks.ed.cs...
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/compiledScripts/tools/levelEditor/scripts/datablocks.ed.cs.edso
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/xcodebuildflags.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/undo.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/toolbar.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/saving.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/properties.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/options.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelManagement.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditorWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditorMenu.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/levelEditor.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/guiClasses/lbStaticSpriteThumbnailPopup.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/toolPropertiesSelection.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/toolProperties.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBarContent.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarTreeView.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarQuickEdit.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarProject.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarHistoryView.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarCreate.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarContentManagement.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/sideBarClassConfigLink.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sceneView.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/toolbar.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/layerPersistence.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushRollout.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/tileFields/brushPreview.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTrigger.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTileLayer.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dTextObject.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dStaticSprite.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dShapeVector.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dShape3D.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dScroller.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectSet.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObjectGroup.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneObject.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dSceneGraph.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dPath.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dParticleEffect.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/t2dAnimatedSprite.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit3.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit2.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textEdit.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/textCommandButton.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dFramePicker.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/t2dDatablockList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/spacer.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/rollout.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFloatWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditFieldBaseType.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/quickEditContentUtil.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/mask.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/listBox.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRightEdit.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/leftRight.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/layerManager.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/label.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/keybindList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/hideableStack.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/enumList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dynamicFieldStack.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/dropDownEditList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/commandButton.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/colorPicker.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/quickEditFields/checkBox.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/showGraphButton.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleGraphFieldList.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterStack.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEmitterGraph.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/particleFields/particleEffectGraph.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/quickEditClasses/otherFields/align.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/tileMaps.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/staticSprites.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/scrollers.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/particleEffects.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/otherObjects.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/objectLibraryBaseType.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/objectLibrary/AnimatedSprites.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/fileDialogs.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/edit.ed.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/datablocks.ed.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/LevelBuilderBase.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/options.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/TGBInsider.ed.gui. Took 12 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/TGBInsider.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/leveleditor/gui/LevelDatablocksBuilder.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/gui/projectManPanel.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/iDeviceTools/ProjectiDevicePanel.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/levelEditor/scripts/forms/sideBar/iDeviceTools/ProjectiFeaturePanel.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/tileLayerEditor/main.cs. Took 4 ms
+ % - Initializing TileMap Builder
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/tileLayerEditor/fileDialogs.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/main.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/newProjectDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/newProjectDlg.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/openProjectDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/projectOptionsDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/projectOptionsDlg.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/superTooltipDlg.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/projectWizard/gui/superTooltipDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/utility.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/storyboardWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/imageMapPreviewWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/animationPreviewWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/objectReference.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/imageMapSelect.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/utility/main.ed.cs. Took 10 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/ABImageMapPreviewWindow.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/gui/AnimationBuilder.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/gui.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/animationEditor/main.cs. Took 18 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/main.cs. Took 0 ms
+ % - Initializing ImageMap Builder
+Missing file: /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/imageEditorPrefs.cs!
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/data/content/datablocks.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/scripts/editor.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/scripts/editorSettings.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/scripts/editorPreviewWindow.ed.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/imageEditor/gui/ImageBuilderGui.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/main.cs. Took 0 ms
+ % - Initializing T2D Behavior Editor
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/scripts/behaviorEditor.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/scripts/behaviorList.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/scripts/behaviorStack.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/scripts/undo.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/behaviorEditor/scripts/fieldTypes.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/localPointPrefs.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/gui/LocalPointEditor.ed.gui. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/localPointEditor.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/localPointMouse.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/localPointDragAndDrop.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/linkpointEditor.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/collisionPolyEditor.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/shapeVectorEditor.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/behaviorPolyEditor.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/behaviorLocalPointListEditor.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/localPointEditor/main.cs. Took 16 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/fileDialogBase.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/openFileDialog.ed.cs. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/saveFileDialog.ed.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/saveChangesMBDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/simViewDlg.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/colorPicker.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBoxOk.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBoxYesNo.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBoxYesNoCancel.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBoxOKCancel.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBoxOKCancelDetailsDlg.ed.gui. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messagePopup.ed.gui. Took 2 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/messageBoxes/messageBox.ed.cs. Took 8 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/tgb/tools/gui/guiDialogs.ed.cs. Took 16 ms
+
+Torque Game Builder (v1.7.5) initialized...
+iTorque 2D v1.4.1 is active...
+     % Project Game Path
+         % Projects (last, startup) : /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/TestGame01/projectFiles/project.t2dProj  ,  
+     % Reloading startup project. /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/project.t2dProj
+     % Path added : /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles
+% Opening Project /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/project.t2dProj ...
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/managed/datablocks.cs. Took 662 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/managed/persistent.cs. Took 4 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/managed/brushes.cs. Took 0 ms
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/behaviors/AllCppComponents.cs. Took 38 ms
+game/scripts/behaviors/AllCppComponents.cs (1342): Unable to instantiate non-conobject class CComponentPathGridHandler.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1563): Unable to instantiate non-conobject class CComponentScoringManager.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (932): Unable to instantiate non-conobject class CComponentLineDrawAttack.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (963): Unable to instantiate non-conobject class CComponentLineDrawAttackObject.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (167): Unable to instantiate non-conobject class CComponentEndLevelScreen.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1466): Unable to instantiate non-conobject class CComponentPlayerHomeBase.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (233): Unable to instantiate non-conobject class CComponentEnemyBlob.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (264): Unable to instantiate non-conobject class CComponentEnemySerpent.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (295): Unable to instantiate non-conobject class CComponentEnemySmoke.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1146): Unable to instantiate non-conobject class CComponentManaSeedItemDrop.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (105): Unable to instantiate non-conobject class CComponentEnemyProjectileBrickAttack.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1110): Unable to instantiate non-conobject class CComponentManaBar.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (619): Unable to instantiate non-conobject class CComponentHealthBar.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1373): Unable to instantiate non-conobject class CComponentPauseScreen.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (37): Unable to instantiate non-conobject class CComponentAchievementBanner.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (830): Unable to instantiate non-conobject class CComponentLevelBeginSequence.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1594): Unable to instantiate non-conobject class CComponentSeedMagnetButton.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (584): Unable to instantiate non-conobject class CComponentEnemySpawnTimeSlot.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (404): Unable to instantiate non-conobject class CComponentEnemySpawnController.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (348): Unable to instantiate non-conobject class CComponentEnemySmokePositionList.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1422): Unable to instantiate non-conobject class CComponentPauseScreenElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1897): Unable to instantiate non-conobject class CComponentTutorialLevel.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1928): Unable to instantiate non-conobject class CComponentTutorialLevelElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1928): Unable to instantiate non-conobject class CComponentTutorialLevelElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1928): Unable to instantiate non-conobject class CComponentTutorialLevelElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1928): Unable to instantiate non-conobject class CComponentTutorialLevelElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1928): Unable to instantiate non-conobject class CComponentTutorialLevelElement.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1656): Unable to instantiate non-conobject class CComponentStaticPath.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1656): Unable to instantiate non-conobject class CComponentStaticPath.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1656): Unable to instantiate non-conobject class CComponentStaticPath.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1656): Unable to instantiate non-conobject class CComponentStaticPath.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1496): Unable to instantiate non-conobject class CComponentScoreScreenFacebookButton.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (1959): Unable to instantiate non-conobject class CComponentTutorialPathHandler.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+game/scripts/behaviors/AllCppComponents.cs (755): Unable to instantiate non-conobject class CComponentLandBrick.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/Level_01_01.t2d. Took 220 ms
+game/scripts/behaviors/AllCppComponents.cs (994): Unable to instantiate non-conobject class CComponentLogoScreen.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+Executed /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/Screen_PixelVandalsLogo.t2d. Took 2 ms
+GLError before creating texImage
+
+GLError before creating texImage
+
+GLError before creating texImage
+
+Set::getObject index out of range.
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelBuilder/layouts/User.cs
+Exporting Particle Editor preferences.
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/particleEditorPrefs.cs
+Exporting Scene Editor preferences.
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/levelEditorPrefs.cs
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/managed/brushes.cs
+Exporting Image Editor preferences.
+Exporting Gui preferences.
+Exporting TGB preferences.
+creating path /Users/richardskala/Library/Application Support/GarageGames/iTorque 2D v1.4.1/commonPrefs.cs
+Con::execute - 4126 has no namespace: onRemove
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/data/fonts/Arial 14 (ansi).uft
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/data/fonts/
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/data/fonts/Arial 12 (ansi).uft
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/data/fonts/
+Shutting down the OpenGL display device...
+Cleaning up the display device...
+Killing the texture manager...
+Clearing the current AGL context...
+Clearing the current drawable...
+Deleting the rendering context...
+Destroying the window...

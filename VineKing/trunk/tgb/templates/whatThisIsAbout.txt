@@ -1,0 +1,16 @@
+When creating a new project in iTGB/Torque2D for iPhone, the following occurs : 
+
+Project location is tested for existing files etc
+Project template files are copied into the folder (common/game/main.cs)
+Project Build templates are copied into the buildFiles folder PER PROJECT
+
+
+
+What these folders are for :
+
+Project templates are a good starting point for a new user. 
+Making them in a folder, and "packable" - which allows users to help other users by slapping 
+together a quick diagnostic template, and can send to a new user to quickly test/diagnose simple problems.
+
+The other cool alternative is making genre/game kits in template form and selling/using/distributing those for other
+users to enjoy and start from.

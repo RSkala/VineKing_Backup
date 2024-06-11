@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ljpeg", "ljpeg.vcproj", "{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lpng", "lpng.vcproj", "{AF1179E3-A838-46A3-A427-1E62AA4C52F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C} = {86CB2525-0CF3-40D3-BF42-A0A95035EE8C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcproj", "{86CB2525-0CF3-40D3-BF42-A0A95035EE8C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iTorque2DGame", "iTorque2DGame.vcproj", "{C02AD961-3D27-475C-91AE-BF1C720F031E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C} = {86CB2525-0CF3-40D3-BF42-A0A95035EE8C}
+		{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36} = {0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}
+		{AF1179E3-A838-46A3-A427-1E62AA4C52F4} = {AF1179E3-A838-46A3-A427-1E62AA4C52F4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}.Debug|Win32.Build.0 = Debug|Win32
+		{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}.Release|Win32.ActiveCfg = Release|Win32
+		{0B07BA94-AA53-4FD4-ADB4-79EC2DA53B36}.Release|Win32.Build.0 = Release|Win32
+		{AF1179E3-A838-46A3-A427-1E62AA4C52F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF1179E3-A838-46A3-A427-1E62AA4C52F4}.Debug|Win32.Build.0 = Debug|Win32
+		{AF1179E3-A838-46A3-A427-1E62AA4C52F4}.Release|Win32.ActiveCfg = Release|Win32
+		{AF1179E3-A838-46A3-A427-1E62AA4C52F4}.Release|Win32.Build.0 = Release|Win32
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C}.Debug|Win32.Build.0 = Debug|Win32
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C}.Release|Win32.ActiveCfg = Release|Win32
+		{86CB2525-0CF3-40D3-BF42-A0A95035EE8C}.Release|Win32.Build.0 = Release|Win32
+		{C02AD961-3D27-475C-91AE-BF1C720F031E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C02AD961-3D27-475C-91AE-BF1C720F031E}.Debug|Win32.Build.0 = Debug|Win32
+		{C02AD961-3D27-475C-91AE-BF1C720F031E}.Release|Win32.ActiveCfg = Release|Win32
+		{C02AD961-3D27-475C-91AE-BF1C720F031E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

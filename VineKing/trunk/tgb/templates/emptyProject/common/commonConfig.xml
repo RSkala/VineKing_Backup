@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TorqueGameConfiguration>
+   <CommonVer>114</CommonVer>
+   <Company>com.yourcompany.appname</Company>
+   <GameName>MyGame</GameName>
+   <Resolution>480 320 32</Resolution>
+   <FullScreen></FullScreen>
+   <UsesNetwork>0</UsesNetwork>
+   <UsesAudio>1</UsesAudio>
+   <DefaultScene>~/data/levels/emptyLevel.t2d</DefaultScene>
+   <StatusBarType>BlackTranslucent</StatusBarType>
+   <StatusBarHidden>0</StatusBarHidden>
+   <ScreenOrientation>Landscape</ScreenOrientation>
+   <ScreenUpsideDown>0</ScreenUpsideDown>
+   <ScreenAutoRotate>0</ScreenAutoRotate>
+   <MultiTouch>0</MultiTouch>
+</TorqueGameConfiguration>
+<iDeviceSettings>
+   <iDeviceType>0</iDeviceType>
+   <iDeviceScreenOrientation>0</iDeviceScreenOrientation>
+   <iDeviceScreenResolution>1</iDeviceScreenResolution>
+   <iFeatureUseNetwork>0</iFeatureUseNetwork>
+   <iFeatureUseMusic>1</iFeatureUseMusic>
+   <iFeatureUseMultitouch>0</iFeatureUseMultitouch>
+   <iFeatureStatusBarType>0</iFeatureStatusBarType>
+</iDeviceSettings>
