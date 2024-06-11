@@ -1,0 +1,318 @@
+=======================
+LEVEL CREATION NOTES
+=======================
+
+================================================================
+OBJECT                 |  COMPONENT NAME             | LAYER |
+================================================================
+PathGrid	       | Path Grid Handler	     | 27    |
+----------------------------------------------------------------
+Land Brick	       | Land Brick		     | 15    |
+----------------------------------------------------------------
+Mana Seed 	       | Mana Seed Item Drop         | 13    |
+----------------------------------------------------------------
+Blob Monster	       | AStar Actor Component       | 14    |
+----------------------------------------------------------------
+Serpent Monster        | AStar Actor Component       | 14    |
+----------------------------------------------------------------
+Smoke Monster          | Enemy Mana Eater	     | 12    |
+----------------------------------------------------------------
+Serpent Bullet         | Brick Attack Projectile     | 14    |
+----------------------------------------------------------------
+Vine Attack Object     | N/A                         | 13    |
+----------------------------------------------------------------
+Line Draw Attack       | Line Draw Attack	     | N/A   |
+----------------------------------------------------------------
+Line Attack Tip        | Line Draw Attack Object     | 9     |
+----------------------------------------------------------------
+Line Draw Connection   | N/A                         | 10    |
+----------------------------------------------------------------
+Line Draw Line         | N/A                         | 10    |
+----------------------------------------------------------------
+Line Draw Path         | N/A                         | N/A   |
+----------------------------------------------------------------
+Spawn Controller       | Spawn Controller            | N/A   |
+----------------------------------------------------------------
+Spawner                | Enemy Spawner Component     | N/A   |
+----------------------------------------------------------------
+Player                 | Player Home Base Component  | 14    |
+----------------------------------------------------------------
+Enemy Paths            | Static Path                 | N/A   |
+----------------------------------------------------------------
+Health Bar             | Health Bar                  | 3     |
+----------------------------------------------------------------
+Mana Bar               | Mana Bar                    | 3     |
+----------------------------------------------------------------
+Score Screen           | Scoring Manager             | 0     |
+----------------------------------------------------------------
+
+================================================================
+VINE KING NOTES:
+TheVineKing, Layer: 14
+Size: (63.360, 126.720)
+Component: Player Home Base Component
+IdleLoopAnim: 		VINE_KING_IDLE
+GrowingStartAnim:	VINE_KING_Death
+GroawingLoopAnim	VINE_KING_LINE_DRAW
+MoveLoopAnim:		none
+EatAnim:		VINE_KING_EAT
+WinAnim:		VINE_KING_WIN
+DeadAnim:		VINE_KING_DEATH
+HitAnim:		VINE_KING_ATTACK
+VineObjectA:		VineAttackObject 
+VineObjectB:		VineAttackObject 
+VineObjectC:		VineAttackObject 
+
+================================================================
+================================================================
+LAND BRICK NOTES:
+- Upper Left Corner position:  (-112.0, -198.0 )
+- Lower Right Corner position: ( 112.0,  186.0 )
+
+
+
+New Collision Bounds (to avoid overlap)
+0: (-0.9, -0.45 )
+1: ( 0.9, -0.45 )
+2: ( 0.9,  0.45 )
+3: (-0.9,  0.45 )
+----------------------
+OLD Collision Bounds:
+0: (-1.0, -0.5 )
+1: ( 1.0, -0.5 )
+2: ( 1.0,  0.5 )
+3: (-1.0,  0.5 )
+
+================================================================
+================================================================
+LINE DRAW ATTACK OBJECTS:
+Line Draw Square/Circle Size: (4.0, 4.0)
+Line Draw Square/Circle Layer: 10
+Line Tip Layer: 9
+
+"LineDrawAttack_Circle";
+"LineDrawAttack_Square";
+"LineDrawAttack_VineTip";
+"LineDrawAttack_PathObject";
+"LineDrawAttack_FollowObject";
+================================================================
+================================================================
+VINE ATTACK OBJECT
+Name:  VineAttackObject
+Layer: 13
+Size: (32.0, 512.0)
+================================================================
+================================================================
+PATH NODES:
+Size: (16.0, 16.0)
+Upper Left / NODE_1_1: (-112.0, -192.0)
+Lower Left / NODE_13_1 (-112.0, 190 )
+Upper Right / NODE_1_8 (112, -192)
+Lower Right / NODE_13_8 (112, 190)
+================================================================
+================================================================
+HEALTH BAR:
+Name: HealthBarObject
+Size: (64.0, 16.0)
+Layer: 3
+
+HealthBarFrame_LEFT
+Layer: 2
+Size: (32.0, 32.0)
+Frame: 29
+-Flip Horizontal
+
+HealthBarFrame_CENTER
+Size: (64.0, 32.0)
+Layer: 2
+Frame: 28
+
+HealthBarFrame_RIGHT
+Size: (32.0, 32.0)
+Layer: 2
+Frame: 29
+
+---------------------------------------------
+
+MANA BAR:
+Name: ManaBarObject
+Size: (16.0, 64.0)
+Layer: 3
+
+ManaBarFrame_TOP
+Size: (32, 32)
+Layer: 2
+Frame: 31
+- Flip Horizontal
+
+ManaBarFrame_CENTER
+Size: (32, 64)
+Layer: 2
+Frame: 39
+- Flip Horizontal
+
+ManaBarFrame_BOTTOM
+Size: (32, 32)
+Layer: 2
+Frame: 31
+- Flip Horizontal
+- Flip Vertical
+
+================================================================
+================================================================
+ENEMIES:
+
+Blob:
+Name: Enemy_Blob
+Layer: 14
+AStarActorComponent
+
+Serpent:
+Name: Enemy_Serpent
+Layer: 14
+AStarActorComponent
+
+Serpent Projectile:
+Name: SerpentBrickAttackProjectile
+Component Brick Attack Projectile
+================================================================
+================================================================
+MANA SEED:
+Name:      ManaSeedDrop
+Component: Mana Seed Item Drop
+Layer:     13
+================================================================
+================================================================
+HUD:
+ImageMap: 	frame_hudImageMap
+Name:     	InGameHUD
+Component: 	none
+Layer:		2
+
+Seed Suck Button:
+Name: SeedMagnetButton
+Component: Seed Magnet Button
+Layer: 3
+Size: (43.428, 43.428)
+ImageMap:  frame_00ImageMap, Frame 52
+================================================================
+================================================================
+PAUSE SCREEN
+Name: 		PauseScreen_Owner
+Component:  	Pause Screen
+
+Objects:
+
+Name:  PauseButton
+Component: Pause Screen Element, Type PAUSE_BUTTON
+Layer: 2
+ImageMap: frame_00ImageMap, Frame 5
+Size: (43.428, 43.428)
+
+PauseMenuImage
+ConfirmQuitMenuImage
+Layer: 1
+Pause Screen Element
+
+Layer: 0
+PauseMenu_ResumeButton
+PauseMenu_ResumePressedImage
+
+PauseMenu_MuteButton
+PauseMenu_MuteOnOffImage
+
+PauseMenu_QuitButton
+PauseMenu_QuitPressedImage
+
+ConfirmQuit_YesButton
+PauseMenu_YesPressedImage
+
+ConfirmQuit_NoButton
+PauseMenu_NoPressedImage
+
+Pause Button Image Sizes: (160, 66)
+Pause Button Sizes: (168, 74)
+
+================================================================
+================================================================
+END LEVEL SCREEN
+
+Name: EndLevelScreen_OWNER
+
+
+
+Mount to Owner:
+OK BUtton:
+Name: EndLevelScreen_OKButton
+Component: End Level Screen Element, ElementType: OK_BUTTON
+Frame: 11
+
+Text Images:
+Component:  End Level Screen Element
+EndLevelScreen_YouWin
+EndLevelScreen_GameOver
+================================================================
+================================================================
+SCORING MANAGER / SCORE SCREEN:
+Owner is OK Button:
+Name: doesn't matter
+
+BG: ScoreScreen_BG
+
+TEXT OBJECTS:
+Seed Count
+Seed Score
+
+Grass Count
+Grass Score
+
+Blob Count
+Blob Score
+
+Health Count 
+Health Score
+
+Mana Count
+Mana Score
+
+Total Score
+
+================================================================
+================================================================
+BLOB TEMPLATE:
+
+tileLayer: 		PathGrid
+SpawnAnim:		BLOB_SPAWN
+MoveAnim:		BLOB_MOVE
+AttackAnim:		BLOB_ATTACK
+DeathAnim:		BLOB_DEATH
+StunAnim:		none
+AttackVuln:		Tap
+AttackBehavior:		Move to Next Tile
+TileAttackPower: 	100
+PlayerAttackPow:	5.0
+MovementSpeed:		20.0
+
+================================================================
+================================================================
+SERPENT TEMPLATE:
+
+tileLayer: 		PathGrid
+SpawnAnim:		SERPENT_SPAWN
+MoveAnim:		SERPENT_IDLE
+AttackAnim:		SERPENT_ATTACK
+DeathAnim:		SERPENT_DEATH
+StunAnim:		none
+AttackVuln:		Tap
+AttackBehavior:		Stationary
+TileAttackPower: 	100
+PlayerAttackPow:	50.0
+MovementSpeed:		0.0
+
+================================================================
+================================================================
+
+
+
+
+
