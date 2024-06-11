@@ -1,0 +1,56 @@
+#ifndef TORQUE_PLAYER
+
+//-----------------------------------------------------------------------------
+// Torque Game Builder
+// Copyright (C) GarageGames.com, Inc.
+//
+// Static Sprite Creation tool.
+//-----------------------------------------------------------------------------
+#ifndef _LEVELBUILDERSTATICSPRITETOOL_H_
+#define _LEVELBUILDERSTATICSPRITETOOL_H_
+
+#ifndef _T2DSCENEWINDOW_H_
+#include "T2D/t2dSceneWindow.h"
+#endif
+
+#ifndef _T2DSCENEOBJECT_H_
+#include "T2D/t2dSceneObject.h"
+#endif
+
+#ifndef _LEVELBUILDERCREATETOOL_H_
+#include "TGB/levelBuilderCreateTool.h"
+#endif
+
+#ifndef _CONSOLETYPES_H_
+#include "console/consoleTypes.h"
+#endif
+
+//-----------------------------------------------------------------------------
+// LevelBuilderStaticSpriteTool
+//-----------------------------------------------------------------------------
+class LevelBuilderStaticSpriteTool : public LevelBuilderCreateTool
+{
+   typedef LevelBuilderCreateTool Parent;
+
+private:
+   StringTableEntry  mImageMapName;
+   U32               mImageMapFrame;
+
+protected:
+   virtual t2dSceneObject* createObject();
+   virtual Point2I getPixelSize();
+  
+public:
+   LevelBuilderStaticSpriteTool();
+   ~LevelBuilderStaticSpriteTool();
+
+   void setImageMapName( const char* name, S32 frame );
+
+   // Declare our Console Object
+   DECLARE_CONOBJECT(LevelBuilderStaticSpriteTool);
+};
+
+#endif
+
+
+#endif // TORQUE_TOOLS
