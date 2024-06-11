@@ -1,0 +1,191 @@
+//-------------------------- 9/17/2012 -- 22:00:04 -----
+System & Processor Information:
+   MacOS version: 10.8.1
+   CarbonLib version: 1.6.0
+   Physical RAM: 2047MB
+   Logical RAM: 2047MB
+Unknown Getstalt value for processor type: 0x1f65e835
+platform layer should be changed to use sysctl() instead of Gestalt() .
+   Unknown Processor, assuming x86 Compatible, 2147 Mhz
+   FPU detected
+ 
+Math Init:
+   Installing Standard C extensions
+ 
+Input Init:
+
+Video Init:
+  active displays = 0x8a20c0  CGDisplayID = 0x4248a46
+  active displays = 0x8a20d8  CGDisplayID = 0x42803c0
+using display 0x8a20c0
+   Accelerated OpenGL display device detected.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+Binding server port to default IP
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/main.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/main.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/main.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/main.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/main.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/main.cs. Took 0 ms
+ % - Initializing Common
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/defaultPrefs.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/defaultPrefs.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/
+
+Using OpenGL rendering. Fullscreen: 0
+
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/defaultPrefs.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/xml.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/xml.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/xml.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/properties.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/properties.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/properties.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/common.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/common.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/common.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/audio.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/audio.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/audio.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/canvas.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/canvas.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/canvas.cs. Took 0 ms
+Activating the OpenGL display device...
+ OpenGLDevice activating...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce GT 650M OpenGL Engine
+  Version: 2.1 NVIDIA-8.0.51
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+  Vertical Sync
+  ATI_FSAA
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  3DFX_texture_compression_FXT1
+
+ set screen mode 320 x 320 x 32, windowed, force it, dont repaint
+Cleaning up the display device...
+Killing the texture manager...
+Clearing the current AGL context...
+Clearing the current drawable...
+Deleting the rendering context...
+>> Attempting to change display settings to windowed 320x320x32...
+using display 0x8a20c0
+Set up AGL windowed support
+Cleared gl buffers
+>>Number of FSAA samples is now [1].
+Resurrecting the texture manager...
+Max Texture Size reported as: 16384
+ set screen mode 320 x 480 x 32, windowed, dont force it, repaint
+Cleaning up the display device...
+Killing the texture manager...
+Clearing the current AGL context...
+Clearing the current drawable...
+Deleting the rendering context...
+Destroying the window...
+>> Attempting to change display settings to windowed 320x480x32...
+using display 0x8a20c0
+Set up AGL windowed support
+Cleared gl buffers
+>>Number of FSAA samples is now [1].
+Resurrecting the texture manager...
+OpenAL Driver Init
+OpenAL Driver Init Success
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/keybindings.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/keybindings.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/keybindings.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectManagement.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectManagement.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectManagement.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/levelManagement.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/levelManagement.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/levelManagement.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectResources.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectResources.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/projectResources.cs. Took 0 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/SoundManager.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/SoundManager.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/scripts/SoundManager.cs. Took 8 ms
+ % - Common scripts load time : 5 ms
+Missing file: /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/gui/consoleProfiles.cs!
+Missing file: /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/common/gui/console.gui!
+ % - Common load time : 101 ms
+
+Torque Game Builder (v1.7.4) initialized...
+Torque2D for iPhone Torque2D for iPhone | v1.3 is active...
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/behaviors/AllCppComponents.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/behaviors/AllCppComponents.cs.dso
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/behaviors/AllCppComponents.cs. Took 16 ms
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/gui/mainScreen.gui...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/gui/mainScreen.gui.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/gui/
+Failed to load profile bitmap ()
+Failed to load profile bitmap ()
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/gui/mainScreen.gui. Took 8 ms
+ % - MainScreen set to Portrait! 320x480
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/game.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/game.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/scripts/game.cs. Took 0 ms
+ % - Game load time : 147 ms
+t2dSceneWindow::loadLevel -- Loading game/data/levels/Screen_PixelVandalsLogo.t2d
+$CurrentLevelFileName = Screen_PixelVandalsLogo.t2d
+--------Loading Resource file game/PlatformerArt/Screen_PixelVandalsLogoResources.cs
+--------Adding to Level game/data/levels/Screen_PixelVandalsLogo.t2d
+%newlevelFile  = game/data/levels/Screen_PixelVandalsLogo.t2d
+%levelFileName = Screen_PixelVandalsLogo
+%dbFileName    = game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs
+LOADING DATABLOCKS: game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs
+--------Exec()ing level datablocks game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/datablocks/
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/datablocks/Screen_PixelVandalsLogo_datablocks.cs. Took 0 ms
+--------Exec()ing level game/data/levels/Screen_PixelVandalsLogo.t2d
+Compiling /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/Screen_PixelVandalsLogo.t2d...
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/Screen_PixelVandalsLogo.t2d.dso
+creating path /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/
+game/scripts/behaviors/AllCppComponents.cs (994): Unable to instantiate non-conobject class CComponentLogoScreen.
+copyBehaviorToComponent cannot find component with ID 0
+SimComponent::addComponents - Invalid Component Object "0"
+Loaded compiled script /Users/richardskala/Dev/PixelVandals/VineKing/MyProjects/VineKing/projectFiles/game/data/levels/Screen_PixelVandalsLogo.t2d. Took 8 ms
+creating path /Users/richardskala/Library/Application Support/GarageGames/Torque Game Builder(iPhone)/common/commonConfig.xml
+creating path /Users/richardskala/Library/Application Support/GarageGames/Torque Game Builder(iPhone)/common/
+creating path /Users/richardskala/Library/Application Support/GarageGames/Torque Game Builder(iPhone)/
+creating path /Users/richardskala/Library/Application Support/GarageGames/
+creating path /Users/richardskala/Library/Application Support/
+Shutting down the OpenGL display device...
+Cleaning up the display device...
+Killing the texture manager...
+Clearing the current AGL context...
+Clearing the current drawable...
+Deleting the rendering context...
+Destroying the window...

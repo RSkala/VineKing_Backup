@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "t2dSceneGraph::renderView(RectF, unsigned int, unsigned int, CDebugStats*):t2dSceneGraph.cc">
+         <PersistentStrings>
+            <PersistentString
+               value = "pSceneObject2D">
+            </PersistentString>
+            <PersistentString
+               value = "pSceneObject2D-&gt;mOwner">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "t2dPath::clear():t2dPath.cc">
+         <PersistentStrings>
+            <PersistentString
+               value = "mObjects">
+            </PersistentString>
+            <PersistentString
+               value = "this-&gt;mObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "t2dStaticSprite::renderObject(RectF const&amp;, RectF const&amp;):t2dStaticSprite.cc">
+         <PersistentStrings>
+            <PersistentString
+               value = "this-&gt;objectName">
+            </PersistentString>
+            <PersistentString
+               value = "&amp;this-&gt;objectName">
+            </PersistentString>
+            <PersistentString
+               value = "*(this-&gt;ObjectName)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentTutorialLevel::OnPlayerEatSeed():ComponentTutorialLevel.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sm_pInstance-&gt;m_eTutorialState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VineKingTwitterViewController initializeTwitterEngine]:VineKingTwitterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pTwitterEngine">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentMainMenuScreen::OnTutorialButtonPressed():ComponentMainMenuScreen.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;g_szTutorialLevelName">
+            </PersistentString>
+            <PersistentString
+               value = "g_szTutorialLevelName">
+            </PersistentString>
+            <PersistentString
+               value = "*g_szTutorialLevelName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "t2dPath::preIntegrate(float, float, CDebugStats*):t2dPath.cc">
+         <PersistentStrings>
+            <PersistentString
+               value = "this-&gt;mObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentEndLevelScreen::onUpdate():ComponentEndLevelScreen.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_bDisplayEndLevelMessage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentTutorialLevel::OnFadeInFinished():ComponentTutorialLevel.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_eTutorialState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentMapSelection::SetMapSelectionActive():ComponentMapSelection.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;m_pOwner-&gt;objectName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentTutorialPathHandler::onUpdate():ComponentTutorialPathHandler.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "g_pTheFinger">
+            </PersistentString>
+            <PersistentString
+               value = "g_pTheFinger-&gt;mVisible">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentTutorialLevel::OnPlayerOutOfMana():ComponentTutorialLevel.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "vPos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentMapSelectMenu::OnMapSelectButtonPressed():ComponentMapSelectMenu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pOwner">
+            </PersistentString>
+            <PersistentString
+               value = "&amp;m_pOwner-&gt;objectName">
+            </PersistentString>
+            <PersistentString
+               value = "m_pOwner-&gt;objectName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CComponentTutorialLevel::OnPostInit():ComponentTutorialLevel.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "g_pSeedButton_Glow">
+            </PersistentString>
+            <PersistentString
+               value = "g_pPauseButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "t2dPath::attachObject(t2dSceneObject*, float, int, bool, int, int, ePathMode, int, bool):t2dPath.cc">
+         <PersistentStrings>
+            <PersistentString
+               value = "this-&gt;mNodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

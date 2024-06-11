@@ -1,0 +1,132 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(mainScreenGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "480 320";
+	//Extent = "500 340";
+   MinExtent = "480 320"; // RKS: I changed these
+	//MinExtent = "500 340";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new t2dSceneWindow(sceneWindow2D) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 0";
+	   //Position = "-10 -10";
+      Extent = "480 320";
+	   //Extent = "500 340";
+      MinExtent = "480 320";
+	   //MinExtent = "500 340";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      lockMouse = "0";
+      useWindowMouseEvents = "1";
+      useObjectMouseEvents = "1";
+   };
+	
+	new GuiBitmapCtrl( LoadingScreenBG ) // RKS NOTE: This is the loading screen background image (black box)
+	{
+		canSaveDynamicFields = "0";
+		isContainer = "0";
+		//Profile = "GuiDefaultProfile";
+		Profile = "GuiDefaultProfileNonModal";
+		HorizSizing = "right";
+		VertSizing = "bottom";
+		Position = "0 0";
+		Extent = "320 480";
+		MinExtent = "0 0";
+		canSave = "1";
+		Visible = "1";
+		hovertime = "1000";
+		bitmap = "~/data/images/4x4_black_block.png";
+		wrap = "0";
+		useSourceRect = "0";
+		sourceRect = "0 0 0 0";
+	};
+	
+	new GuiBitmapCtrl( LoadingScreen01 ) // RKS NOTE: This is the loading screen image "LOADING"
+	{
+		canSaveDynamicFields = "0";
+		isContainer = "0";
+		//Profile = "GuiDefaultProfile";
+		Profile = "GuiDefaultProfileNonModal";
+		HorizSizing = "right";
+		VertSizing = "bottom";
+		//Position = "0 0"; // Note: the upper-left corner is (0,0), so the object must be positioned accordingly
+		Position = "32 10";
+		Extent = "256 256";
+		MinExtent = "0 0";
+		canSave = "1";
+		Visible = "1";
+		hovertime = "1000";
+		bitmap = "~/data/images/load_screen_vineking.png";
+		wrap = "0";
+		useSourceRect = "0";
+		sourceRect = "0 0 0 0";
+	};
+	
+//	new GuiBitmapCtrl( PVILoadingScreen ) // RKS NOTE: This is the Pixel Vandals logo to fake loading in the beginning on old devices.
+//	{
+//		canSaveDynamicFields = "0";
+//		isContainer = "0";
+//		Profile = "GuiDefaultProfileNonModal";
+//		HorizSizing = "right";
+//		VertSizing = "bottom";
+//		//Position = "0 0"; // Note: the upper-left corner is (0,0), so the object must be positioned accordingly
+//		Position = "-96 -16"; // Note: This is HALF what I think it SHOULD be (-192, -32). Not sure why...
+//		Extent = "512 512";
+//		MinExtent = "0 0";
+//		canSave = "1";
+//		Visible = "1";
+//		hovertime = "1000";
+//		bitmap = "~/data/images/PVI_LOGO.png";
+//		wrap = "0";
+//		useSourceRect = "0";
+//		sourceRect = "0 0 0 0";
+//	};
+	
+	// LOADING TIP TEXT OBJECTS
+	new GuiTextCtrl( LoadingTipText01 ) // RKS NOTE: This object will show the text "TIP:" during loading
+	{
+		canSaveDynamicFields = "0";
+		Profile = "GuiDefaultProfileNonModal";
+		HorizSizing = "right";
+		VertSizing = "bottom";
+		Position = "16 311";
+		Extent = "256 18";
+		MinExtent = "8 8";
+		canSave = "1";
+		Visible = "1";
+		hovertime = "1000";
+		text = "";
+		maxLength = "255";
+	};
+	
+	new GuiMLTextCtrl( LoadingTipText02 ) // RKS NOTE: This object will show the Hint text during loading
+	{
+		canSaveDynamicFields = "0";
+		Profile = "GuiDefaultProfileNonModal";
+		HorizSizing = "right";
+		VertSizing = "bottom";
+		Position = "16 335";
+		Extent = "288 24";
+		MinExtent = "8 8";
+		canSave = "1";
+		Visible = "1";
+		hovertime = "1000";
+		text = "";
+		maxLength = "255";
+	};
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TorqueGameConfiguration>
+   <CommonVer>114</CommonVer>
+   <Company>com.pixelvandals.vineking</Company>
+   <GameName>VineKing</GameName>
+   <Resolution>320 480 32</Resolution>
+   <FullScreen></FullScreen>
+   <UsesAudio>1</UsesAudio>
+   <DefaultScene>~/data/levels/Screen_PixelVandalsLogo.t2d</DefaultScene>
+</TorqueGameConfiguration>
+<iDeviceSettings>
+   <iDeviceType>0</iDeviceType>
+   <iDeviceScreenOrientation>1</iDeviceScreenOrientation>
+   <iDeviceScreenResolution>1</iDeviceScreenResolution>
+   <iFeatureUseStoreKit>0</iFeatureUseStoreKit>
+   <iFeatureUseNetwork>0</iFeatureUseNetwork>
+   <iFeatureUseGameKit>0</iFeatureUseGameKit>
+   <iFeatureUseMusic>0</iFeatureUseMusic>
+   <iFeatureUseLocation>0</iFeatureUseLocation>
+   <iFeatureUseMultitouch>0</iFeatureUseMultitouch>
+   <iFeatureUseMoviePlayer></iFeatureUseMoviePlayer>
+   <iFeatureUseAutoRotate>0</iFeatureUseAutoRotate>
+   <iFeatureUseOrientation>0</iFeatureUseOrientation>
+   <iFeatureStatusBarType>0</iFeatureStatusBarType>
+</iDeviceSettings>

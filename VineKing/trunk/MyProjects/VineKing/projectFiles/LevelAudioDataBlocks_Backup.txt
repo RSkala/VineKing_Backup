@@ -1,0 +1,203 @@
+	//-----------------------------------------------------------------------------------------------
+	// BGM
+	//-----------------------------------------------------------------------------------------------
+	
+	//----------------------------------------
+	// BGM Lose
+	new AudioProfile( BGMLose )
+	{
+		filename = "~/data/audio/P02_BGM_Lose.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// BGM Win
+	new AudioProfile( BGMWin )
+	{
+		filename = "~/data/audio/P02_BGM_Win.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// BGM In Game Music
+	new AudioProfile( BGMGameMusic )
+	{
+		filename = "~/data/audio/P02_BGM_Game_Music.wav";
+		description = "AudioLooping";
+		preload = false;
+	};
+	
+	//-----------------------------------------------------------------------------------------------
+	// Sound Effects
+	//-----------------------------------------------------------------------------------------------
+	
+	//----------------------------------------
+	// Lava Tile Shatter
+	new AudioProfile( LavaTileShatter )
+	{
+		filename = "~/data/audio/P02_Shatter.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Player Chanting
+	new AudioProfile( PlayerChanting )
+	{
+		filename = "~/data/audio/P02_SFX_Player_Chant.wav";
+		description = "AudioLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Player Take Damage
+	new AudioProfile( PlayerTakeDamage )
+	{
+		filename = "~/data/audio/P02_SFX_Player_Hit.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Player Eat
+	new AudioProfile( PlayerEat )
+	{
+		filename = "~/data/audio/P02_SFX_Player_Eat.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Player Death
+	new AudioProfile( PlayerDeath )
+	{
+		filename = "~/data/audio/P02_SFX_Player_Death.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Out of Mana
+	new AudioProfile( OutOfMana )
+	{
+		filename = "~/data/audio/P02_Mana_Out.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Vortex Sound
+	new AudioProfile( VortexSound )
+	{
+		filename = "~/data/audio/P02_SFX_Vortex.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Attack Tap
+	new AudioProfile( AttackTap )
+	{
+		filename = "~/data/audio/P02_SFX_Attack_Tap.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Vineling Cheer Large
+	new AudioProfile( VinelingCheerLarge )
+	{
+		filename = "~/data/audio/P02_SFX_Cheer_Large.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy Spawn Sound
+	new AudioProfile( EnemySpawn )
+	{
+		filename = "~/data/audio/P02_SFX_Enemy_Spawn.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy A Attack (Blob Attack)
+	new AudioProfile( BlobAttackPlayer )
+	{
+		filename = "~/data/audio/P02_SFX_ATK_Blob.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy A Puke (Blob Brick Attack)
+	new AudioProfile( BlobPuke )
+	{
+		filename = "~/data/audio/P02_SFX_PUKE_Blob.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy A Death (Blob Death)
+	new AudioProfile( BlobDeath )
+	{
+		filename = "~/data/audio/P02_SFX_Death_A.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy B Attack (Serpent Attack)
+	new AudioProfile( SerpentAttack )
+	{
+		filename = "~/data/audio/P02_SFX_ATK_Spit.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy B Death (Serpent Death)
+	new AudioProfile( SerpentDeath )
+	{
+		filename = "~/data/audio/P02_SFX_Death_B.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy D Spawn (Smoke Spawn)
+	new AudioProfile( SmokeSpawn )
+	{
+		filename = "~/data/audio/P02_SFX_SPAWN_Smoke.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy D Attack (Smoke Attack)
+	new AudioProfile( SmokeAttack )
+	{
+		filename = "~/data/audio/P02_SFX_ATK_Smoke.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	//----------------------------------------
+	// Enemy D Death (Smoke Monster Death)
+	new AudioProfile( SmokeMonsterDeath )
+	{
+		filename = "~/data/audio/P02_SFX_Death_D.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
+	
+	new AudioProfile( ButtonClickForward )
+	{
+		filename = "~/data/audio/P02_SFX_Click_F.wav";
+		description = "AudioNonLooping";
+		preload = false;
+	};
